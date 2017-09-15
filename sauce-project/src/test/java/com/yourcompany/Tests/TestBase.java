@@ -127,7 +127,7 @@ public class TestBase implements SauceOnDemandSessionIdProvider {
     public void setUp() throws Exception {
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        capabilities.setCapability("testobject_api_key", "88267F3C14574F2DBDCEDE60AEDB5F58");
+        capabilities.setCapability("testobject_api_key", "TESTOBJECT-API-KEY");
         capabilities.setCapability("platformName", this.platformName);
         capabilities.setCapability("platformVersion", this.platformVersion);
         capabilities.setCapability("deviceName", this.deviceName);
